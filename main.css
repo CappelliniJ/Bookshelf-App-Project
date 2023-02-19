@@ -1,0 +1,74 @@
+/* Philippines theme */
+/* sets the font, text alignment, padding, background color, and text color for the webpage */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    padding: 10px;
+    background-color: #00b894;
+    color: #ffffff;
+  }
+  /*sets the font size, margin, and color for all h1 tags*/
+  h1 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #fdcb6e;
+  }
+  /*sets the list style, display type, margin, and padding for all ul tags*/
+  ul {
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  /*sets the margin, background color, padding, and border radius for all li tags*/
+  li {
+    margin-bottom: 10px;
+    background-color: #6c5ce7;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  /*sets the display and font size for all b tags*/
+  b {
+    display: inline;
+    font-size: 14px;
+    color: #ffffff;
+  }
+  /*sets the background color, text color, display type, justify content, and padding for the nav element*/
+  nav {
+    background-color: #6c5ce7;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  /*sets the list style, display type, margin, and padding for all ul tags within the nav element*/
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  /*sets the margin for all li tags within the nav element*/
+  nav li {
+    margin: 0 10px;
+  }
+  /*sets the color and text decoration for all links within the nav element*/
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  /*sets the text decoration for all links within the nav element when they are being hovered over*/
+  nav a:hover {
+    text-decoration: underline;
+  }
+  /*sets the display type and width for all label elements*/
+  label {
+    display: block;
+    width: 100px;
+  }
+  /*sets the display type for all input elements*/
+  input {
+    display: block;
+  }
+  
+ 

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bookshelf</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script>
+      function register() {
+        // Get the values of the username and password fields
+        const username = document.getElementById("username").value;
+        const password = document.getElementById("password").value;
+
+        // Redirect the user to the books.html page
+        window.location.href = "BookShelf.html";
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="BookShelf.html">Books</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="dedication.html">Dedication</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1 style="font-size: 100px;">Welcome to the Derek Zoolander Center for Kids Who Can't Read Good and Who Wanna Learn to Do Other Stuff Good Too</h1>
+
+    <div>
+      <h2>Register for the Derek Zoolander Center for Kids Who Can't Read Good and Who Wanna Learn to Do Other Stuff Good Too </h2>
+      <form>
+        <!-- // registration for username and pass-->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br>
+           <!-- // registration button -->
+        <button type="button" onclick="register()">Register</button>
+      </form>
+    </div>
+
+    <script src="bookshelf.js"></script>
+  </body>
+</html>

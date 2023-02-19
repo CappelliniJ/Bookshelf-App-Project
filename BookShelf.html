@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bookshelf</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="book-data.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="BookShelf.html">Books</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="dedication.html">Dedication</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1>Books are added to the bottom of the list.</h1>
+
+    
+
+    <ul id="bookshelf"></ul>
+<!-- // function that allows books to be added -->
+    <form id="add-book-form">
+      <label for="title-input">Title:</label>
+      <input type="text" id="title-input" name="title" required><br>
+
+      <label for="author-input">Author:</label>
+      <input type="text" id="author-input" name="author" required><br>
+
+      <label for="subject-input">Subject:</label>
+      <input type="text" id="subject-input" name="subject" required><br>
+
+      <label for="language-input">Language:</label>
+      <input type="text" id="language-input" name="language"><br>
+
+      <button type="submit">Add Book</button>
+    </form>
+    <script src="js/book-data.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
