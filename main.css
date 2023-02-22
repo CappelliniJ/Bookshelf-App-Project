@@ -70,5 +70,26 @@ body {
   input {
     display: block;
   }
+
+  /* sets a prize!*/
+
+#clickmeforafreeprize {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  padding-top: 10px; 
+  text-align: center;
+}
+
+#clickmeforafreeprize h1 {
+  font-size: 50px;
+}
+
+#clickmeforafreeprize img {
+  margin-top: 20px;
+}
+
   
  
