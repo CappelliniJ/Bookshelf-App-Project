@@ -6,6 +6,7 @@ This is a bookapp project, that simulates a real website. The website offers a c
 
               Also, please read our legal statement. Thank you!
 
-    𓍊𓋼𓍊𓋼𓍊𓆏                                                               𓍊𓋼𓍊𓋼𓍊𓆏     
+    𓍊𓋼𓍊𓋼𓍊𓆏                    
+𓆏                                           𓍊𓋼𓍊𓋼𓍊𓆏     
 
 
