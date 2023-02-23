@@ -8,7 +8,6 @@
         // Get the values of the username and password fields
         const username = document.getElementById("username").value;
         const password = document.getElementById("password").value;
-
         // Redirect the user to the books.html page
         window.location.href = "BookShelf.html";
       }
@@ -27,25 +26,20 @@
         </ul>
       </nav>
     </header>
-
     <h1 style="font-size: 100px;">Welcome to the Derek Zoolander Center for Kids Who Can't Read Good and Who Wanna Learn to Do Other Stuff Good Too</h1>
-
-    <div>
-      <h2>Register for the Derek Zoolander Center for Kids Who Can't Read Good and Who Wanna Learn to Do Other Stuff Good Too </h2>
-      <form>
-        <!-- // registration for username and pass-->
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username"><br>
-
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password"><br>
-           <!-- // registration button -->
-        <button type="button" onclick="register()">Register</button>
-      </form>
+    <div style="text-align: center;">
+      <h2>Register for the Derek Zoolander Center for Kids Who Can't Read Good and Who Wanna Learn to Do Other Stuff Good Too</h2>
+      <div style="display: flex; justify-content: center; align-items: center;">
+        <form>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username"><br>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password"><br>
+         <button type="button" onclick="register()">Register</button>
+        </form>
+      </div>
     </div>
-
     <script src="bookshelf.js"></script>
-    
     <div style="text-align: center;">
       <p>Library not liable for any Salmon related injuries while on the premises</p>
     </div>
